@@ -1,6 +1,6 @@
 /* If "exist", then all the exists "exist" */
 const exist = require('./exist')
-module.exports = exist
+export default exist
   ? (function () {
       this.e = {exist}
       return {
